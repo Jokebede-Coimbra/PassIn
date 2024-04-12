@@ -37,7 +37,7 @@ public class EventService {
         newEvent.setSlug(this.createSlug(eventRequestDTO.title()));
 
         this.eventRepository.save(newEvent);
-        
+
         return new EventIdDTO((newEvent.getId()));
     }
 
