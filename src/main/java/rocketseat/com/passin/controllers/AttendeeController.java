@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/attendees")
-@RequiredArgsConstructor
 public class AttendeeController {
 
     @GetMapping

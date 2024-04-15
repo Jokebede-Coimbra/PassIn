@@ -12,7 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class AttendeeService {
 
-    private AttendeeRepository attendeeRepository;
+    private final AttendeeRepository attendeeRepository;
 
     public List<Attendee> getAllAttendeesFromEvent(String eventId) {
         return this.attendeeRepository.findByEventId(eventId);

@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 @Entity
 @Table(name = "events")
 @Getter
@@ -16,7 +17,7 @@ public class Event {
 
     @Id
     @Column(nullable = false)
-    @GeneratedValue(strategy =GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
 
     @Column(nullable = false)
