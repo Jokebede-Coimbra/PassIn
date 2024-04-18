@@ -1,4 +1,2 @@
 /*C3*/SET SCHEMA PUBLIC
 SET SCHEMA "PUBLIC"
-INSERT INTO EVENTS VALUES('f03b7fe7-38e9-43df-80da-a88eed9cf2c7','Rocketseat','Angular','rocketseat',300)
-COMMIT
