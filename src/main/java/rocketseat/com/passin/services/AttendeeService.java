@@ -18,7 +18,7 @@ import java.util.Optional;
 public class AttendeeService {
 
     private final AttendeeRepository attendeeRepository;
-    private CheckinRepository checkinRepository;
+    private final CheckinRepository checkinRepository;
 
     public List<Attendee> getAllAttendeesFromEvent(String eventId) {
         return this.attendeeRepository.findByEventId(eventId);
