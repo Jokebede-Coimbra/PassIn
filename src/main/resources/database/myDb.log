@@ -1,4 +1,6 @@
 /*C3*/SET SCHEMA PUBLIC
 SET SCHEMA "PUBLIC"
-INSERT INTO CHECK_INS VALUES(1,'2024-04-26 06:21:19.044849','0b4d13e0-c49b-44f7-babf-f3adb7b39e05')
+INSERT INTO EVENTS VALUES('3fe33816-6afe-4d3d-8231-bf277300df88','Rocketseat NLw Unite 3.0','Aprenda v\u00e1rias tecnologias de forma paga e online!','rocketseat-nlw-unite-30',2)
+COMMIT
+INSERT INTO ATTENDEES VALUES('745ee7b8-b7c9-4a0e-8b40-de80cd5ab336','Raquel Vit\u00f3ria','vic@gmail.com','3fe33816-6afe-4d3d-8231-bf277300df88','2024-04-26 06:36:29.333923')
 COMMIT
