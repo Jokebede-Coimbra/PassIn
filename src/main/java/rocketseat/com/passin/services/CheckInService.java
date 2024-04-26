@@ -21,7 +21,7 @@ public class CheckInService {
         CheckIn newCheckIn = new CheckIn();
         newCheckIn.setAttendee(attendee);
         newCheckIn.setCreatedAt(LocalDateTime.now());
-        
+
         this.checkInRepository.save(newCheckIn);
     }
 
