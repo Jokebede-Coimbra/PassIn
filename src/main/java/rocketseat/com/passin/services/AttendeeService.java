@@ -12,7 +12,7 @@ import rocketseat.com.passin.dto.attendee.AttendeeBadgeResponseDTO;
 import rocketseat.com.passin.dto.attendee.AttendeeDetails;
 import rocketseat.com.passin.dto.attendee.AttendeesListResponseDTO;
 import rocketseat.com.passin.repositories.AttendeeRepository;
-import rocketseat.com.passin.repositories.CheckinRepository;
+import rocketseat.com.passin.repositories.CheckInRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -23,7 +23,7 @@ import java.util.Optional;
 public class AttendeeService {
 
     private final AttendeeRepository attendeeRepository;
-    private final CheckinRepository checkinRepository;
+    private final CheckInRepository checkinRepository;
 
     public List<Attendee> getAllAttendeesFromEvent(String eventId) {
         return this.attendeeRepository.findByEventId(eventId);
